@@ -1,0 +1,85 @@
+.ballot {
+  /* min-height: 100vh; */
+}
+
+.ballot > .accordion {
+  background-color: #031322;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.ballot > .accordion > div > div > svg {
+  color: #ffffff;
+}
+
+.accordion > div > div {
+  justify-content: center;
+}
+
+.ballot > .accordion:hover {
+  color: #cccccc;
+  background-color: #091a2a;
+}
+
+.accordion-detail {
+  background-color: #0D2436;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: none;
+}
+
+.card {
+  margin: 5px;
+  background-color: #009B86 !important;
+  color: #ffffff !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  margin: 5px;
+  background-color: #34AC9C !important;
+  color: #ffffff !important;
+}
+
+.card > div > button {
+  background-color: #0e2336 !important;
+}
+
+.card > div > button:disabled {
+  background-color: #a9acae !important;
+  color: #252627;
+}
+
+.card > div > button:hover {
+  background-color: #13324e !important;
+}
+
+.card > button > div {
+  height: 65px;
+}
+
+.submit-button {
+  color: #ffffff !important;
+  background-color: #009B86 !important;
+}
+
+.submit-button:disabled {
+  color: #a8a8a8 !important;
+  background-color: #345f89 !important;
+}
+
+.submit-button:hover {
+  background-color: #34AC9C !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .accordion-detail {
+    justify-content: center;
+  }
+
+  .card > button > div {
+    height: fit-content;
+  }
+}

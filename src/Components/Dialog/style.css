@@ -1,0 +1,25 @@
+.container > div > div {
+  width: 650px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  background-color: #0D2436;
+}
+
+.container > div > div:hover {
+  /* width: 650px;
+  color: #ffffff;
+  display: flex;
+  align-items: center; */
+  color: #cccccc;
+  background-color: #192f3f;
+}
+
+.text-item > p {
+  color: #7a838c;
+}
+
+.line-break {
+  width: 90%;
+  border: #fff solid 1px;
+}

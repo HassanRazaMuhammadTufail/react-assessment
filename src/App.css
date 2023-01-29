@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  background-color: #0D2436;
+  color: #ffffff;
+}
+
+.App:hover {
+  color: #cccccc
 }
 
 .App-logo {
