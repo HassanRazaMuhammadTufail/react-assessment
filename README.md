@@ -1,11 +1,17 @@
 # Front End Engineering Challenge
 
 ## Final UI
+##### Screenshots for reference
 
+### Award Categories
 ![Award Categories](images/Award-Categories.png?raw=true "Award Categories")
+### Pictures Listing Category Wise
 ![Pictures Listing Category Wise](images/Pictures-List-Category-Wise.png?raw=true "Pictures Listing Category Wise")
+### Only One Selection Validation
 ![Only One Selection Validation](images/Only-one-select.png?raw=true "Only One Selection Validation")
+### Validation to select pictures from all categories
 ![Validation to select pictures from all categories](images/Validtion-to-select-from-all-category.png?raw=true "Validation to select pictures from all categories")
+### Submission Modal with details
 ![Submission Modal with details](images/Submission-modal-on-submit.png?raw=true "Submission Modal with details")
 
 ## Summary
